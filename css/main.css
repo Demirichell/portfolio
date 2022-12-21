@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    font-family:monospace;
+}
+body,html{
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(11, 37, 69, 1);
+    height: 40px;
+
+
+}
+.flexleft{
+    display: flex;
+    width: 50%;
+    text-align: left;
+    color: rgba(141, 169, 196, 1);
+    word-spacing: 2px;
+}
+.flexright{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    color: rgba(141, 169, 196, 1);
+    
+}
+.color{
+    color: crimson;
+
+}
+p {
+    margin: 15px;
+    font-size:larger
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: darkgrey;
+}
