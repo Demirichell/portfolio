@@ -1,8 +1,10 @@
 * {
     margin: 0%;
-    font-family:monospace;
+    font-family: monospace;
 }
-body,html{
+
+body,
+html {
     height: 100%;
 }
 
@@ -14,31 +16,83 @@ nav {
 
 
 }
-.flexleft{
+
+.flexleft {
     display: flex;
     width: 50%;
     text-align: left;
     color: rgba(141, 169, 196, 1);
     word-spacing: 2px;
 }
-.flexright{
+
+.flexright {
     display: flex;
     width: 50%;
     justify-content: right;
     color: rgba(141, 169, 196, 1);
-    
+
 }
-.color{
+
+.color {
     color: crimson;
 
 }
+
 p {
     margin: 15px;
-    font-size:larger
+    font-size: larger
 }
-.container{
+
+.container {
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+h2 {
+    color: rgba(141, 169, 196, 1);
+    padding: 40px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(19, 51, 63);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing eff   ect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+
+.backgroundimage {
+    display: flex;
+    flex-direction: row;
+    background-image: url(/img/florian-olivo-4hbJ-eymZ1o-unsplash\ \(1\).jpg);
+    height: 100%;
+    width: 100%;
+    max-zoom: 50%;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    
 }
