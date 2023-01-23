@@ -1,0 +1,45 @@
+
+.flexleft {
+    display: flex;
+    width: 50%;
+    text-align: left;
+    color: rgba(141, 169, 196, 1);
+    word-spacing: 2px;
+}
+
+.flexright {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    color: rgb(141, 169, 196);
+
+}
+
+.color {
+    color: crimson; /* color of fonts contact*/
+
+}
+
+p {
+    margin: 15px;
+    font-size: larger
+}
+a {
+    text-decoration: none;
+   color :inherit;
+   color: rgb(184, 211, 219);
+   text-decoration: none;
+ 
+}
+a:hover, a:active {
+    background-color: red;
+  }
+  
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(11, 37, 69, 1);
+    height: 40px;
+
+
+}
