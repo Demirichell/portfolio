@@ -18,29 +18,4 @@ html {
 
 
     
-    .item2 { grid-area: menu;
-        height: 600px;
-        width: 300px;
-        background-color: rgb(141, 169, 196); rgb(141, 169, 196);
-     }
-    .item3 { grid-area: main; 
-    width: 25%;
-    }
-   
     
-    .grid-container {
-      display: grid;
-      grid-template-areas:
-        'menu main main main'
-        'menu'
-        
-      
-    }
-    
-    .grid-container > div {
-      
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
-      gap: 60px;
-    }
