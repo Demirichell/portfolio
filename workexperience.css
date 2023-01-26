@@ -25,16 +25,17 @@ html {
     
 }
 .left1{
- background-color: rgb(209, 97, 46);
- width: 25%;
- height: 25%;
- margin-top: 10%;
- 
+ background-color:  rgb(170, 170, 170);
+ width: 20%;
+ height: 30%;
+ margin-top: 13%;
+ margin-right:1%;
  
 }
  .right1{
-background-color: rgb(144, 20, 175);
-width: 25%;
-height: 25%;
-margin-top: 10%;
+background-color: rgb(170, 170, 170);
+width: 20%;
+height: 30%;
+margin-top: 13%;
+margin-left: 1%;
  }   
