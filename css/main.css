@@ -4,13 +4,13 @@
 }
 
 body{
-    background-image: url(/img/florian-olivo-4hbJ-eymZ1o-unsplash\ \(1\).jpg);
+    background-image:url('/img/background.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
-html {
+ html {
     height: 100%;
 }
 
@@ -31,7 +31,7 @@ h2 {
     /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
+    letter-spacing: .10em;
     /* Adjust as needed */
     animation:
         typing 3.5s steps(40, end),
@@ -62,3 +62,19 @@ h2 {
     }
 }
 
+.text {
+   
+    width: fit-content;
+    padding: 16%;
+}
+
+img{
+    top: 25%;
+    right: 15%;
+    position: absolute;
+
+}
+main {
+    position: relative;
+    height: 100vh;
+}
