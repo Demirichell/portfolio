@@ -10,16 +10,9 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-=======
-body {
-	background-image: url('../img/background.jpg');
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-	background-position: center;
->>>>>>> 43d1b90fa9f976e4bfb363944b240b22f32e154c
 }
-html {
+
+html { 
 	height: 100%;
 }
 
