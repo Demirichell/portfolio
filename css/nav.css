@@ -7,7 +7,7 @@
     word-spacing: 2px;
 }
 
-.flexright {
+.flexright {         /* indeling nav */
     display: flex;
     width: 50%;
     justify-content: right;
