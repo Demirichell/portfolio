@@ -1,0 +1,10 @@
+* {
+    margin: 0%;
+    font-family: monospace;
+  }
+body{
+    background-image: url('../img/aboutme.png');
+    background-size: cover;
+
+ 
+}
