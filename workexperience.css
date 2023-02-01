@@ -21,28 +21,9 @@ html {
   width: 100vw;
   justify-content: center;
 }
-<<<<<<< HEAD
-.left1 {
-  background-color: rgb(170, 170, 170);
-  width: 20%;
-  height: 30%;
-  margin-top: 13%;
-  margin-right: 1%;
-  text-align: center;
-}
-.right1 {
-  background-color: rgb(170, 170, 170);
-  width: 20%;
-  height: 30%;
-  margin-top: 13%;
-  margin-left: 1%;
-  text-align: center;
-}
-img{
-  height: 60%;
-  height: 60%;
-=======
-.bigbox {
+
+
+.bigbox{
   justify-content: center;
   align-items: center;
   display: flex;
@@ -53,8 +34,10 @@ img{
   border-radius: 3%;
 }
 
+
+
 .block1 {
-  height: 500px;
+  height: 400px;
   width: 300px;
   background-color: rgb(141, 169, 196);
   margin: 20px;
@@ -63,20 +46,20 @@ img{
 }
 
 .block2 {
-  height: 500px;
+  height: 400px;
   width: 300px;
   background-color: rgb(141, 169, 196);
   margin: 20px;
 }
 
 .block3 {
-  height: 500px;
+  height: 400px;
   width: 300px;
   background-color: rgb(141, 169, 196);
-  margin: 20px;
+  margin: 18px;
 }
 img {
+  height: 45%;
   border-radius: 50%;
   padding: 20%;
->>>>>>> 156f3809346fc48e8dbd702aef2d33675600de9a
 }
