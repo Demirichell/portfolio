@@ -13,11 +13,10 @@ body {
     width: 100%;
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
     
   }
-=======
-  }
+
+  
   .bigbox {
     justify-content: center;
     align-items: center;
@@ -40,4 +39,4 @@ img {
   width: 100%;
   box-shadow: 20px 20px 10px grey;
 }
->>>>>>> 156f3809346fc48e8dbd702aef2d33675600de9a
+
