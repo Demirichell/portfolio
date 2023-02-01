@@ -22,8 +22,8 @@ body {
     align-items: center;
     display: flex;
     background-color: rgba(11, 37, 69, 1);
-    width: 80%;
-    height: 60%;
+    width: 1000px;
+    height: 70%;
     margin-top: 6%;
     border-radius: 3%;
   }
@@ -35,8 +35,39 @@ body {
 }
 img {
   
-  height: 100%;
-  width: 100%;
-  box-shadow: 20px 20px 10px grey;
+  height: 200px;
+  width: 300px;
+ border: solid white;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+.block1 {
+  height: 400px;
+  width: 700px;
+  background-color: rgb(141, 169, 196);
+  margin: 20px;
+  text-align: center;
+  
+  
+}
+
+.block2 {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(141, 169, 196);
+  margin: 20px;
+  text-align: center;
+  
+}
+
+
+h2 {
+  color:  rgba(11, 37, 69, 1);
+  font-size: 50px;
+}
+h3{
+  padding: 10px;
+}

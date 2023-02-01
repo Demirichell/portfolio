@@ -41,6 +41,7 @@ html {
   width: 300px;
   background-color: rgb(141, 169, 196);
   margin: 20px;
+  text-align: center;
   
   
 }
@@ -50,6 +51,8 @@ html {
   width: 300px;
   background-color: rgb(141, 169, 196);
   margin: 20px;
+  text-align: center;
+  
 }
 
 .block3 {
@@ -62,4 +65,8 @@ img {
   height: 45%;
   border-radius: 50%;
   padding: 20%;
+}
+h1 {
+  color: rgba(11, 37, 69, 1);
+
 }
