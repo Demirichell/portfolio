@@ -31,6 +31,10 @@ a {
    text-decoration: none;
  
 }
+p {
+    margin: 15px;
+    font-size: larger
+}
 a:hover, a:active {
     background-color: red;
   }
