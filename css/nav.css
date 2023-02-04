@@ -1,50 +1,48 @@
-
 .flexleft {
-    display: flex;
-    width: 50%;
-    text-align: left;
-    color: rgba(141, 169, 196, 1);
-    word-spacing: 2px;
+  display: flex;
+  width: 50%;
+  text-align: left;
+  color: rgba(141, 169, 196, 1);
+  word-spacing: 2px;
 }
 
-.flexright {         /* indeling nav */
-    display: flex;
-    width: 50%;
-    justify-content: right;
-    color: rgb(141, 169, 196);
-
+.flexright {
+  /* indeling nav */
+  display: flex;
+  width: 50%;
+  justify-content: right;
+  color: rgb(141, 169, 196);
 }
 
 .color {
-    color: crimson; /* color of fonts contact*/
-
+  color: crimson; /* color of fonts contact*/
 }
 
 p {
-    margin: 15px;
-    font-size: larger
+  margin: 15px;
+  font-size: larger;
 }
 a {
-    text-decoration: none;
-   color :inherit;
-   color: rgb(184, 211, 219);
-   text-decoration: none;
- 
+  text-decoration: none;
+  color: inherit;
+  color: rgb(184, 211, 219);
+  text-decoration: none;
 }
 p {
-    margin: 15px;
-    font-size: larger
+  margin: 15px;
+  font-size: larger;
 }
-a:hover, a:active {
-    background-color: red;
-  }
-  
+a:hover,
+a:active {
+  background-color: red;
+  /* hoe snel de hover van kleur veranderd*/
+  transition: all 1000ms linear;
+}
+
 nav {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(11, 37, 69, 1);
-    height: 40px;
-    width: 100%;
-
-
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(11, 37, 69, 1);
+  height: 40px;
+  width: 100%;
 }
